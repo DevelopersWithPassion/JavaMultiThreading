@@ -4,11 +4,11 @@ import java.util.LinkedList;
 import java.util.Random;
 
 /**
- * This class shows ProducerConsumer Example Using wait and notify. program does
- * not allow size of LinkedList to exceed ThreshHold.Producer has to wait if
- * size reaches maximum threshold. consumer has to wait when LinkedList is
+ * This class shows ProducerConsumer Example Using wait() and notify(). program
+ * does not allow size of LinkedList to exceed ThreshHold.Producer has to wait
+ * if size reaches maximum threshold. consumer has to wait when LinkedList is
  * empty. Remember producer notify consumer after putting data into list and
- * consumer notify producer after consuming data from it. 
+ * consumer notify producer after consuming data from it.h
  * 
  * 
  * 
