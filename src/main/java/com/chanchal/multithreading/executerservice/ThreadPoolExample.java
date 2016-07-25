@@ -38,7 +38,7 @@ class ThreadPoolPojo implements Runnable {
 
 public class ThreadPoolExample {
 	public static void main(String[] args) {
-		ExecutorService service = Executors.newFixedThreadPool(2);
+		ExecutorService service = Executors.newScheduledThreadPool(3);
 
 		for (int i = 0; i < 12; i++) {
 			service.submit(new ThreadPoolPojo(i));
