@@ -1,4 +1,4 @@
-package com.chanhcal.multithreading.synchronization;
+package com.chanchal.multithreading.synchronization;
 
 /*This class explains the concurrency problem when two or more thread access the shared resources at same time.
  * 

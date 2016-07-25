@@ -1,4 +1,4 @@
-package com.chanchal.multithrading.blockingqueue;
+package com.chanchal.multithreading.blockingqueue;
 
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;

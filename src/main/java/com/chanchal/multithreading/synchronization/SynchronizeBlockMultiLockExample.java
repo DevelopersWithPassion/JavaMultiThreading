@@ -1,4 +1,4 @@
-package com.chanhcal.multithreading.synchronization;
+package com.chanchal.multithreading.synchronization;
 
 import java.util.ArrayList;
 import java.util.List;

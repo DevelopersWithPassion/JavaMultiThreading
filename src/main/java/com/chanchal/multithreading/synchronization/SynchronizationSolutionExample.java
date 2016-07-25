@@ -1,4 +1,4 @@
-package com.chanhcal.multithreading.synchronization;
+package com.chanchal.multithreading.synchronization;
 
 /**
  * This class shows example how we can avoid concurrency problem on shared data.
