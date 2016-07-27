@@ -25,6 +25,7 @@ public class ThreadShutDownExample extends Thread {
 		ThreadShutDownExample thread = new ThreadShutDownExample();
 		thread.start();
 
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Hit Key to stop execution");
 		sc.nextLine();
